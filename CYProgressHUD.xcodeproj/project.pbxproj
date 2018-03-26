@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D756F88E20664E2500827DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F88D20664E2500827DD3 /* AppDelegate.m */; };
+		D756F89120664E2500827DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F89020664E2500827DD3 /* ViewController.m */; };
+		D756F89420664E2500827DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D756F89220664E2500827DD3 /* Main.storyboard */; };
+		D756F89620664E2500827DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D756F89520664E2500827DD3 /* Assets.xcassets */; };
+		D756F89920664E2500827DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D756F89720664E2500827DD3 /* LaunchScreen.storyboard */; };
+		D756F89C20664E2500827DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F89B20664E2500827DD3 /* main.m */; };
+		D756F8A620664E2500827DD3 /* CYProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F8A520664E2500827DD3 /* CYProgressHUDTests.m */; };
+		D756F8B120664E2500827DD3 /* CYProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F8B020664E2500827DD3 /* CYProgressHUDUITests.m */; };
+		D756F8C020664E4000827DD3 /* CYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D756F8BF20664E4000827DD3 /* CYProgressHUD.m */; };
+		D7C093952068797400DF9C6F /* CYProgressTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093942068797400DF9C6F /* CYProgressTextView.m */; };
+		D7C093B32068923300DF9C6F /* ZJImageOnlyHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093A92068923300DF9C6F /* ZJImageOnlyHUDView.m */; };
+		D7C093B42068923300DF9C6F /* ZJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093AC2068923300DF9C6F /* ZJProgressHUD.m */; };
+		D7C093B52068923300DF9C6F /* ZJProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093AE2068923300DF9C6F /* ZJProgressHUDView.m */; };
+		D7C093B62068923300DF9C6F /* ZJTextAndImageHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093B02068923300DF9C6F /* ZJTextAndImageHUDView.m */; };
+		D7C093B72068923300DF9C6F /* ZJTextOnlyHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C093B22068923300DF9C6F /* ZJTextOnlyHUDView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D756F8A220664E2500827DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D756F88120664E2500827DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D756F88820664E2500827DD3;
+			remoteInfo = CYProgressHUD;
+		};
+		D756F8AD20664E2500827DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D756F88120664E2500827DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D756F88820664E2500827DD3;
+			remoteInfo = CYProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D756F88920664E2500827DD3 /* CYProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D756F88C20664E2500827DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D756F88D20664E2500827DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D756F88F20664E2500827DD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D756F89020664E2500827DD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D756F89320664E2500827DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D756F89520664E2500827DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D756F89820664E2500827DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D756F89A20664E2500827DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D756F89B20664E2500827DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D756F8A120664E2500827DD3 /* CYProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D756F8A520664E2500827DD3 /* CYProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYProgressHUDTests.m; sourceTree = "<group>"; };
+		D756F8A720664E2500827DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D756F8AC20664E2500827DD3 /* CYProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D756F8B020664E2500827DD3 /* CYProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYProgressHUDUITests.m; sourceTree = "<group>"; };
+		D756F8B220664E2500827DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D756F8BE20664E4000827DD3 /* CYProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYProgressHUD.h; sourceTree = "<group>"; };
+		D756F8BF20664E4000827DD3 /* CYProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYProgressHUD.m; sourceTree = "<group>"; };
+		D7C093932068797400DF9C6F /* CYProgressTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYProgressTextView.h; sourceTree = "<group>"; };
+		D7C093942068797400DF9C6F /* CYProgressTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYProgressTextView.m; sourceTree = "<group>"; };
+		D7C093A82068923300DF9C6F /* ZJImageOnlyHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageOnlyHUDView.h; sourceTree = "<group>"; };
+		D7C093A92068923300DF9C6F /* ZJImageOnlyHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageOnlyHUDView.m; sourceTree = "<group>"; };
+		D7C093AA2068923300DF9C6F /* ZJPrivateHUDProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPrivateHUDProtocol.h; sourceTree = "<group>"; };
+		D7C093AB2068923300DF9C6F /* ZJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProgressHUD.h; sourceTree = "<group>"; };
+		D7C093AC2068923300DF9C6F /* ZJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProgressHUD.m; sourceTree = "<group>"; };
+		D7C093AD2068923300DF9C6F /* ZJProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProgressHUDView.h; sourceTree = "<group>"; };
+		D7C093AE2068923300DF9C6F /* ZJProgressHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProgressHUDView.m; sourceTree = "<group>"; };
+		D7C093AF2068923300DF9C6F /* ZJTextAndImageHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTextAndImageHUDView.h; sourceTree = "<group>"; };
+		D7C093B02068923300DF9C6F /* ZJTextAndImageHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTextAndImageHUDView.m; sourceTree = "<group>"; };
+		D7C093B12068923300DF9C6F /* ZJTextOnlyHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTextOnlyHUDView.h; sourceTree = "<group>"; };
+		D7C093B22068923300DF9C6F /* ZJTextOnlyHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTextOnlyHUDView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D756F88620664E2500827DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F89E20664E2500827DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F8A920664E2500827DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D756F88020664E2500827DD3 = {
+			isa = PBXGroup;
+			children = (
+				D756F88B20664E2500827DD3 /* CYProgressHUD */,
+				D756F8A420664E2500827DD3 /* CYProgressHUDTests */,
+				D756F8AF20664E2500827DD3 /* CYProgressHUDUITests */,
+				D756F88A20664E2500827DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D756F88A20664E2500827DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D756F88920664E2500827DD3 /* CYProgressHUD.app */,
+				D756F8A120664E2500827DD3 /* CYProgressHUDTests.xctest */,
+				D756F8AC20664E2500827DD3 /* CYProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D756F88B20664E2500827DD3 /* CYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D7C093A72068923300DF9C6F /* ZJProgressHUD */,
+				D756F88C20664E2500827DD3 /* AppDelegate.h */,
+				D756F88D20664E2500827DD3 /* AppDelegate.m */,
+				D756F88F20664E2500827DD3 /* ViewController.h */,
+				D756F89020664E2500827DD3 /* ViewController.m */,
+				D756F8BE20664E4000827DD3 /* CYProgressHUD.h */,
+				D756F8BF20664E4000827DD3 /* CYProgressHUD.m */,
+				D7C093932068797400DF9C6F /* CYProgressTextView.h */,
+				D7C093942068797400DF9C6F /* CYProgressTextView.m */,
+				D756F89220664E2500827DD3 /* Main.storyboard */,
+				D756F89520664E2500827DD3 /* Assets.xcassets */,
+				D756F89720664E2500827DD3 /* LaunchScreen.storyboard */,
+				D756F89A20664E2500827DD3 /* Info.plist */,
+				D756F89B20664E2500827DD3 /* main.m */,
+			);
+			path = CYProgressHUD;
+			sourceTree = "<group>";
+		};
+		D756F8A420664E2500827DD3 /* CYProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				D756F8A520664E2500827DD3 /* CYProgressHUDTests.m */,
+				D756F8A720664E2500827DD3 /* Info.plist */,
+			);
+			path = CYProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		D756F8AF20664E2500827DD3 /* CYProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D756F8B020664E2500827DD3 /* CYProgressHUDUITests.m */,
+				D756F8B220664E2500827DD3 /* Info.plist */,
+			);
+			path = CYProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+		D7C093A72068923300DF9C6F /* ZJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D7C093A82068923300DF9C6F /* ZJImageOnlyHUDView.h */,
+				D7C093A92068923300DF9C6F /* ZJImageOnlyHUDView.m */,
+				D7C093AA2068923300DF9C6F /* ZJPrivateHUDProtocol.h */,
+				D7C093AB2068923300DF9C6F /* ZJProgressHUD.h */,
+				D7C093AC2068923300DF9C6F /* ZJProgressHUD.m */,
+				D7C093AD2068923300DF9C6F /* ZJProgressHUDView.h */,
+				D7C093AE2068923300DF9C6F /* ZJProgressHUDView.m */,
+				D7C093AF2068923300DF9C6F /* ZJTextAndImageHUDView.h */,
+				D7C093B02068923300DF9C6F /* ZJTextAndImageHUDView.m */,
+				D7C093B12068923300DF9C6F /* ZJTextOnlyHUDView.h */,
+				D7C093B22068923300DF9C6F /* ZJTextOnlyHUDView.m */,
+			);
+			path = ZJProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D756F88820664E2500827DD3 /* CYProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D756F8B520664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUD" */;
+			buildPhases = (
+				D756F88520664E2500827DD3 /* Sources */,
+				D756F88620664E2500827DD3 /* Frameworks */,
+				D756F88720664E2500827DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYProgressHUD;
+			productName = CYProgressHUD;
+			productReference = D756F88920664E2500827DD3 /* CYProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D756F8A020664E2500827DD3 /* CYProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D756F8B820664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUDTests" */;
+			buildPhases = (
+				D756F89D20664E2500827DD3 /* Sources */,
+				D756F89E20664E2500827DD3 /* Frameworks */,
+				D756F89F20664E2500827DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D756F8A320664E2500827DD3 /* PBXTargetDependency */,
+			);
+			name = CYProgressHUDTests;
+			productName = CYProgressHUDTests;
+			productReference = D756F8A120664E2500827DD3 /* CYProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D756F8AB20664E2500827DD3 /* CYProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D756F8BB20664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUDUITests" */;
+			buildPhases = (
+				D756F8A820664E2500827DD3 /* Sources */,
+				D756F8A920664E2500827DD3 /* Frameworks */,
+				D756F8AA20664E2500827DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D756F8AE20664E2500827DD3 /* PBXTargetDependency */,
+			);
+			name = CYProgressHUDUITests;
+			productName = CYProgressHUDUITests;
+			productReference = D756F8AC20664E2500827DD3 /* CYProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D756F88120664E2500827DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "叶子";
+				TargetAttributes = {
+					D756F88820664E2500827DD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D756F8A020664E2500827DD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D756F88820664E2500827DD3;
+					};
+					D756F8AB20664E2500827DD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D756F88820664E2500827DD3;
+					};
+				};
+			};
+			buildConfigurationList = D756F88420664E2500827DD3 /* Build configuration list for PBXProject "CYProgressHUD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D756F88020664E2500827DD3;
+			productRefGroup = D756F88A20664E2500827DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D756F88820664E2500827DD3 /* CYProgressHUD */,
+				D756F8A020664E2500827DD3 /* CYProgressHUDTests */,
+				D756F8AB20664E2500827DD3 /* CYProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D756F88720664E2500827DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756F89920664E2500827DD3 /* LaunchScreen.storyboard in Resources */,
+				D756F89620664E2500827DD3 /* Assets.xcassets in Resources */,
+				D756F89420664E2500827DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F89F20664E2500827DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F8AA20664E2500827DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D756F88520664E2500827DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756F8C020664E4000827DD3 /* CYProgressHUD.m in Sources */,
+				D756F89120664E2500827DD3 /* ViewController.m in Sources */,
+				D7C093B32068923300DF9C6F /* ZJImageOnlyHUDView.m in Sources */,
+				D7C093B52068923300DF9C6F /* ZJProgressHUDView.m in Sources */,
+				D756F89C20664E2500827DD3 /* main.m in Sources */,
+				D7C093B42068923300DF9C6F /* ZJProgressHUD.m in Sources */,
+				D756F88E20664E2500827DD3 /* AppDelegate.m in Sources */,
+				D7C093952068797400DF9C6F /* CYProgressTextView.m in Sources */,
+				D7C093B62068923300DF9C6F /* ZJTextAndImageHUDView.m in Sources */,
+				D7C093B72068923300DF9C6F /* ZJTextOnlyHUDView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F89D20664E2500827DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756F8A620664E2500827DD3 /* CYProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756F8A820664E2500827DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756F8B120664E2500827DD3 /* CYProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D756F8A320664E2500827DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D756F88820664E2500827DD3 /* CYProgressHUD */;
+			targetProxy = D756F8A220664E2500827DD3 /* PBXContainerItemProxy */;
+		};
+		D756F8AE20664E2500827DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D756F88820664E2500827DD3 /* CYProgressHUD */;
+			targetProxy = D756F8AD20664E2500827DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D756F89220664E2500827DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D756F89320664E2500827DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D756F89720664E2500827DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D756F89820664E2500827DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D756F8B320664E2500827DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D756F8B420664E2500827DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D756F8B620664E2500827DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D756F8B720664E2500827DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D756F8B920664E2500827DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYProgressHUD.app/CYProgressHUD";
+			};
+			name = Debug;
+		};
+		D756F8BA20664E2500827DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYProgressHUD.app/CYProgressHUD";
+			};
+			name = Release;
+		};
+		D756F8BC20664E2500827DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYProgressHUD;
+			};
+			name = Debug;
+		};
+		D756F8BD20664E2500827DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRVNN93QGR;
+				INFOPLIST_FILE = CYProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.CYProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D756F88420664E2500827DD3 /* Build configuration list for PBXProject "CYProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D756F8B320664E2500827DD3 /* Debug */,
+				D756F8B420664E2500827DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D756F8B520664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D756F8B620664E2500827DD3 /* Debug */,
+				D756F8B720664E2500827DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D756F8B820664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D756F8B920664E2500827DD3 /* Debug */,
+				D756F8BA20664E2500827DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D756F8BB20664E2500827DD3 /* Build configuration list for PBXNativeTarget "CYProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D756F8BC20664E2500827DD3 /* Debug */,
+				D756F8BD20664E2500827DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D756F88120664E2500827DD3 /* Project object */;
+}
